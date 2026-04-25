@@ -44,6 +44,19 @@ function AboutSection() {
       <div className="supervisor-grid">
         {supervisors.map((person) => (
           <article key={person.name} className="supervisor-card glass">
+            {person.image ? (
+              <img
+                className="avatar-img"
+                src={person.image}
+                alt={person.name}
+                onError={(event) => {
+                  event.currentTarget.style.display = 'none'
+                  const next = event.currentTarget.nextElementSibling
+                  if (next) next.style.display = 'grid'
+                }}
+              />
+            ) : null}
+            <div className="avatar avatar-fallback">{initials(person.name)}</div>
             <h3>{person.name}</h3>
             <p>{person.role}</p>
           </article>

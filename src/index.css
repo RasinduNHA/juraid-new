@@ -321,6 +321,10 @@ p {
   margin-top: 1rem;
 }
 
+.supervisor-card {
+  text-align: center;
+}
+
 .contact-form {
   max-width: 680px;
   padding: 1.3rem;

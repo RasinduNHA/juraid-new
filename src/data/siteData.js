@@ -45,10 +45,10 @@ export const domainCards = [
 ]
 
 export const milestones = [
-  { title: 'Project Proposal', percentage: '6%' },
-  { title: 'Progress Presentation 1', percentage: '15%' },
-  { title: 'Progress Presentation 2', percentage: '18%' },
-  { title: 'Final Assessment', percentage: '20%' },
+  { title: 'Project Proposal' },
+  { title: 'Progress Presentation 1' },
+  { title: 'Progress Presentation 2' },
+  { title: 'Final Assessment' },
   { title: 'Viva', percentage: 'Final Evaluation' },
 ]
 
@@ -96,6 +96,14 @@ export const teamMembers = [
 ]
 
 export const supervisors = [
-  { name: 'Jeewaka Perera', role: 'Supervisor' },
-  { name: 'Madusha Weerasooriya', role: 'Co-Supervisor' },
+  {
+    name: 'Jeewaka Perera',
+    role: 'Supervisor',
+    image: '/images/supervisors/jeewaka.jpg',
+  },
+  {
+    name: 'Madusha Weerasooriya',
+    role: 'Co-Supervisor',
+    image: '/images/supervisors/madusha.jpg',
+  },
 ]
