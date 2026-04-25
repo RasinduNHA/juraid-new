@@ -353,6 +353,24 @@ p {
   cursor: pointer;
 }
 
+.contact-form button:disabled {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.form-message {
+  margin-top: 0.45rem;
+  font-size: 0.9rem;
+}
+
+.form-message.success {
+  color: #b8ffd0;
+}
+
+.form-message.error {
+  color: #ffbec4;
+}
+
 .footer {
   padding: 1.5rem 0 2rem;
 }
