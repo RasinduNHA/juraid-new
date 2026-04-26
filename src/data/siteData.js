@@ -53,10 +53,11 @@ export const milestones = [
 ]
 
 export const documents = [
+  { title: 'TAF', file: '/documents/TAF.pdf' },
   { title: 'Project Proposal', file: '/documents/project-proposal.pdf' },
   { title: 'Research Paper', file: '/documents/research-paper.pdf' },
   { title: 'Final Report', file: '/documents/final-report.pdf' },
-  { title: 'Project Charter', file: '/documents/project-charter.pdf' },
+  
 ]
 
 export const presentations = [
@@ -70,6 +71,19 @@ export const presentations = [
     file: '/documents/progress-presentation-2.pdf',
   },
   { title: 'Final Presentation', file: '/documents/final-presentation.pdf' },
+]
+
+export const supervisors = [
+  {
+    name: 'Jeewaka Perera',
+    role: 'Supervisor',
+    image: '/images/supervisors/jeewaka.jpg',
+  },
+  {
+    name: 'Madusha Weerasooriya',
+    role: 'Co-Supervisor',
+    image: '/images/supervisors/madusha.jpg',
+  },
 ]
 
 export const teamMembers = [
@@ -95,15 +109,4 @@ export const teamMembers = [
   },
 ]
 
-export const supervisors = [
-  {
-    name: 'Jeewaka Perera',
-    role: 'Supervisor',
-    image: '/images/supervisors/jeewaka.jpg',
-  },
-  {
-    name: 'Madusha Weerasooriya',
-    role: 'Co-Supervisor',
-    image: '/images/supervisors/madusha.jpg',
-  },
-]
+
