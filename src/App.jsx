@@ -6,6 +6,8 @@ import HeroSection from './components/HeroSection'
 import MilestonesSection from './components/MilestonesSection'
 import Navbar from './components/Navbar'
 import ResourceSection from './components/ResourceSection'
+import ProjectDetailsSection from './components/ProjectDetailsSection'
+import TechStack from './components/TechStack'
 import { documents, presentations } from './data/siteData'
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <Navbar />
       <HeroSection />
       <DomainSection />
+      <ProjectDetailsSection />
+      <TechStack />
       <MilestonesSection />
       <ResourceSection
         id="documents"

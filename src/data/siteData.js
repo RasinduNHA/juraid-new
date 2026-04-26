@@ -68,10 +68,10 @@ export const documents = [
 ]
 
 export const presentations = [
-  { title: 'Proposal Slides', file: '/documents/proposal-slides.pdf' },
+  { title: 'Proposal Slides', file: '/documents/Proposal-Presentation-JuriAid.pptx' },
   {
     title: 'Progress Presentation 1',
-    file: '/documents/progress-presentation-1.pdf',
+    file: '/documents/JuriAid_PP1.pptx',
   },
   {
     title: 'Progress Presentation 2',
