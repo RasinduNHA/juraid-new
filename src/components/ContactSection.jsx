@@ -91,49 +91,14 @@ function ContactSection() {
           subtitle="Reach out for collaboration opportunities, demos, and research discussions."
         />
         
-        <div className="grid lg:grid-cols-5 gap-12 mt-12">
-          
-          {/* Contact Info */}
-          <motion.div 
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="lg:col-span-2 bg-slate-900 rounded-3xl p-8 lg:p-10 text-white relative overflow-hidden"
-          >
-            <div className="absolute top-0 right-0 w-64 h-64 bg-teal-500/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
-            <div className="absolute bottom-0 left-0 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
-            
-            <div className="relative z-10">
-              <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
-              <p className="text-slate-300 mb-12">Fill up the form and our team will get back to you within 24 hours.</p>
-              
-              <div className="space-y-8">
-                <div className="flex items-start gap-4">
-                  <Mail className="text-teal-400 mt-1 shrink-0" />
-                  <div>
-                    <h4 className="font-semibold text-slate-200">Email Address</h4>
-                    <p className="text-slate-400 mt-1">researchcoco@gmail.com</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <MapPin className="text-teal-400 mt-1 shrink-0" />
-                  <div>
-                    <h4 className="font-semibold text-slate-200">Location</h4>
-                    <p className="text-slate-400 mt-1">Sri Lanka Institute of Information Technology</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </motion.div>
-
+        <div className="max-w-3xl mx-auto mt-12">
           {/* Contact Form */}
           <motion.div 
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="lg:col-span-3 bg-white border border-slate-100 rounded-3xl p-8 lg:p-10 shadow-[0_8px_30px_rgb(0,0,0,0.04)]"
+            transition={{ duration: 0.6 }}
+            className="bg-white border border-slate-100 rounded-3xl p-8 lg:p-10 shadow-[0_8px_30px_rgb(0,0,0,0.04)]"
           >
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
