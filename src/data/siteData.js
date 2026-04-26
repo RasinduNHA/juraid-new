@@ -54,10 +54,17 @@ export const milestones = [
 
 export const documents = [
   { title: 'TAF', file: '/documents/TAF.pdf' },
-  { title: 'Project Proposal', file: '/documents/project-proposal.pdf' },
+  {
+    title: 'Project Proposal',
+    files: [
+      { label: 'IT22893802', file: '/documents/IT22893802_Final_Proposal_Report.pdf' },
+      { label: 'IT22127228', file: '/documents/IT22127228_Proposal_report.pdf' },
+      { label: 'IT22092410', file: '/documents/IT22092410_Proposal_Report.pdf' },
+      { label: 'IT22318848', file: '/documents/IT22318848_Proposal_Report.pdf' },
+    ]
+  },
   { title: 'Research Paper', file: '/documents/research-paper.pdf' },
   { title: 'Final Report', file: '/documents/final-report.pdf' },
-  
 ]
 
 export const presentations = [
