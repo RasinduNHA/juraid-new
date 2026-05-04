@@ -91,6 +91,11 @@ export const supervisors = [
     role: 'Co-Supervisor',
     image: '/images/supervisors/madusha.jpg',
   },
+  {
+    name: 'Nadeeka Senavirathne',
+    role: 'External Supervisor (Senior Lawyer)',
+    image: '/images/supervisors/Nadeeka.png',
+  },
 ]
 
 export const teamMembers = [
