@@ -85,11 +85,13 @@ export const supervisors = [
     name: 'Jeewaka Perera',
     role: 'Supervisor',
     image: '/images/supervisors/jeewaka.jpg',
+    email: 'jeewaka.p@sliit.lk',
   },
   {
     name: 'Madusha Weerasooriya',
     role: 'Co-Supervisor',
     image: '/images/supervisors/madusha.jpg',
+    email: 'madusha.w@sliit.lk',
   },
   {
     name: 'Nadeeka Senavirathne',
@@ -103,21 +105,25 @@ export const teamMembers = [
     name: 'Kaushal R. K. A. C.',
     id: 'IT22893802',
     image: '/images/members/kaushal.jpg',
+    email: 'it22893802@my.sliit.lk',
   },
   {
     name: 'Prarthana A. P. S.',
     id: 'IT22127228',
     image: '/images/members/prarthana.jpg',
+    email: 'it22127228@my.sliit.lk',
   },
   {
     name: 'Rasindu N. H. A.',
     id: 'IT22092410',
     image: '/images/members/rasindu.jpg',
+    email: 'it22092410@my.sliit.lk',
   },
   {
     name: 'Sammani W. M. W. L.',
     id: 'IT22318848',
     image: '/images/members/sammani.jpg',
+    email: 'it22318848@my.sliit.lk',
   },
 ]
 

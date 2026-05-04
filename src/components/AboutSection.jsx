@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, Globe } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import SectionTitle from './SectionTitle';
 import { supervisors, teamMembers } from '../data/siteData';
 
@@ -45,14 +45,17 @@ function ProfileCard({ person, isSupervisor = false }) {
       <h3 className="text-xl font-bold text-slate-900 mb-1">{person.name}</h3>
       <p className="text-sm font-medium text-teal-600 mb-4">{person.role || person.id}</p>
       
-      <div className="flex gap-3 mt-auto pt-4 border-t border-slate-100 w-full justify-center">
-        <a href="#" className="p-2 text-slate-400 hover:text-blue-600 hover:bg-blue-50 rounded-full transition-colors" aria-label="LinkedIn Profile">
-          <Globe size={18} />
-        </a>
-        <a href="#" className="p-2 text-slate-400 hover:text-teal-600 hover:bg-teal-50 rounded-full transition-colors" aria-label="Email Contact">
-          <Mail size={18} />
-        </a>
-      </div>
+      {person.email && (
+        <div className="flex gap-3 mt-auto pt-4 border-t border-slate-100 w-full justify-center">
+          <a 
+            href={`mailto:${person.email}`} 
+            className="p-2 text-slate-400 hover:text-teal-600 hover:bg-teal-50 rounded-full transition-colors" 
+            aria-label="Email Contact"
+          >
+            <Mail size={18} />
+          </a>
+        </div>
+      )}
     </motion.article>
   );
 }
